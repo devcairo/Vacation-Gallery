@@ -1,8 +1,11 @@
+
 # Vacation Gallery Project
 
 Hey guys! I've worked on a responsive web gallery showcasing travel photos from various locations I've visited as a project for my ITN263-601 course. Via this project, I attempt to demonstrate some modern web development techniques including a responsive design, smooth animations, & interactive modals that is viewable on any device using Flexbox and media queries.
 
 ## Features
+
+![demo](https://github.com/user-attachments/assets/a1888d92-7c28-4ab3-8196-4237d0bdab66)
 
 ### Home Page
 
