@@ -5,7 +5,7 @@ Hey guys! I've worked on a responsive web gallery showcasing travel photos from 
 
 ## Features
 
-<img align="center" alt="gif" width="30px" height="30px" src="(https://github.com/user-attachments/assets/a1888d92-7c28-4ab3-8196-4237d0bdab66)" />
+<img align="center" alt="gif" width="200px" height="200px" src="https://github.com/user-attachments/assets/a1888d92-7c28-4ab3-8196-4237d0bdab66" />
 
 ### Home Page
 
