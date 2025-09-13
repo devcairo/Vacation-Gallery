@@ -1,0 +1,112 @@
+<!--  Author: Sa'Cairo Bonner
+   Create Date: 09/09/2025
+   Class: ITN263
+   Class Section: 601
+   Assignment: Vacation Gallery
+   Purpose: to develop a responsive website so it can be viewed on any device by using flexbox and media query
+   -->
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sa'Cairo's Vacation Gallery - Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Golden Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-button">Home</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="gallery-container">
+        <h1 class="gallery-title">Explore Some Locations I've Visited in 2025</h1>
+        
+        <div class="gallery-grid">
+            <!-- Row 1 -->
+            <div class="gallery-item">
+                <img src="images/EiffelTowerKingsDominion.jpeg" alt="Eiffel Tower Kings Dominion" class="gallery-image">
+                <span class="image-label">Eiffel Tower - Kings Dominion</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/PeanutsKingsDominion.jpeg" alt="Peanuts Kings Dominion" class="gallery-image">
+                <span class="image-label">Snoopy Sculpture - Kings Dominion</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Beach.jpeg" alt="Beach" class="gallery-image">
+                <span class="image-label">Bowers Beach - Delaware</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/MagnoliaDE.jpeg" alt="Magnolia DE" class="gallery-image">
+                <span class="image-label">Sunset - Magnolia DE</span>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="gallery-item">
+                <img src="images/LegoBenFrank.jpeg" alt="Lego Ben Franklin" class="gallery-image">
+                <span class="image-label">Lego Ben Franklin Sculpture - Franklin Institute</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/NeuronDisplay.jpeg" alt="Neuron Display" class="gallery-image">
+                <span class="image-label">Mouse Neuron Display - Franklin Institute</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/GWStatue.jpeg" alt="Benjamin Franklin Statue" class="gallery-image">
+                <span class="image-label">Benjamin Franklin Statue - Franklin Institute</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/CoupleStatue.jpeg" alt="Couple Statue" class="gallery-image">
+                <span class="image-label">Couple picture in front of Ben - Franklin Institute</span>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="gallery-item">
+                <img src="images/CenterCity.jpeg" alt="Center City" class="gallery-image">
+                <span class="image-label">Center City Philadelphia - Pennsylvania</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/RockefellerCenter.jpeg" alt="Rockefeller Center" class="gallery-image">
+                <span class="image-label">Rockefeller Center - New York</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/NYC.jpeg" alt="NYC" class="gallery-image">
+                <span class="image-label">Times Square - New York</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Pocono.jpeg" alt="Pocono summit" class="gallery-image">
+                <span class="image-label">Pocono summit - Pennsylvania</span>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="gallery-item">
+                <img src="images/MuseumGlobe.jpeg" alt="Museum Globe" class="gallery-image">
+                <span class="image-label">Museum Globe - Smithsonian National Air and Space Museum</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/SpaceSuit.jpeg" alt="Space Suit" class="gallery-image">
+                <span class="image-label">Space Suit - Smithsonian National Air and Space Museum</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Airplane.jpeg" alt="Airplane" class="gallery-image">
+                <span class="image-label">Airplane Display - Smithsonian National Air and Space Museum</span>
+            </div>
+            <div class="gallery-item">
+                <img src="images/SpaceRover.jpeg" alt="Space Rover" class="gallery-image">
+                <span class="image-label">Top Rover Designs By Nasa - Smithsonian National Air and Space Museum</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for enlarged image viewing -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Modal Content">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+    <script src="js/modal.js"></script>
+</body>
+</html>
